@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 50px 50px;
+}
+
+.clock {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.stopwatch-buttons {
+    margin: 20px;
+}
+
+.sw-button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
